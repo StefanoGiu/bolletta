@@ -1,0 +1,23 @@
+{
+    "domain": "bolletta",
+    "name": "Calcolo bolletta elettrica",
+    "codeowners": [
+        "@StefanoGiu"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/StefanoGiu/bolletta",
+    "import_executor": true,
+    "integration_type": "hub",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/StefanoGiu/bolletta/issues",
+    "loggers": [
+        "bolletta"
+    ],
+    "requirements": [
+        "holidays",
+        "bs4"
+    ],
+    "single_config_entry": true,
+    "version": "v1.0.0"
+}
